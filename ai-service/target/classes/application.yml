@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: smarthr-ai-service
+
+server:
+  port: 8080
+
+deepseek:
+  api:
+    base-url: https://api.deepseek.com/v1
+    api-key: ${DEEPSEEK_API_KEY:sk-your-api-key-here}
+    model: deepseek-chat
+    timeout: 60
+    max-retries: 3
+
+logging:
+  level:
+    com.smarthr.ai: DEBUG
+    org.springframework.web.reactive: DEBUG
