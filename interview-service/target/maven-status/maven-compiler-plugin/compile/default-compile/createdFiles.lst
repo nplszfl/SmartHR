@@ -1,0 +1,4 @@
+com/smarthr/interview/dto/InterviewRequest.class
+com/smarthr/interview/model/Interview.class
+com/smarthr/interview/dto/InterviewDTO.class
+com/smarthr/interview/InterviewServiceApplication.class

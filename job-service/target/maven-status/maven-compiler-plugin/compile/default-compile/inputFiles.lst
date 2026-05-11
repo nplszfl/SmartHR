@@ -1,0 +1,11 @@
+/Users/huanghuixiang/smarthr/job-service/src/main/java/com/smarthr/job/JobServiceApplication.java
+/Users/huanghuixiang/smarthr/job-service/src/main/java/com/smarthr/job/dto/JobDTO.java
+/Users/huanghuixiang/smarthr/job-service/src/main/java/com/smarthr/job/ai/JobAnalysisResponse.java
+/Users/huanghuixiang/smarthr/job-service/src/main/java/com/smarthr/job/ai/AIJobService.java
+/Users/huanghuixiang/smarthr/job-service/src/main/java/com/smarthr/job/service/JobService.java
+/Users/huanghuixiang/smarthr/job-service/src/main/java/com/smarthr/job/controller/JobController.java
+/Users/huanghuixiang/smarthr/job-service/src/main/java/com/smarthr/job/dto/JobRequest.java
+/Users/huanghuixiang/smarthr/job-service/src/main/java/com/smarthr/job/controller/AIJobController.java
+/Users/huanghuixiang/smarthr/job-service/src/main/java/com/smarthr/job/ai/JobAnalysisRequest.java
+/Users/huanghuixiang/smarthr/job-service/src/main/java/com/smarthr/job/repository/JobRepository.java
+/Users/huanghuixiang/smarthr/job-service/src/main/java/com/smarthr/job/model/Job.java

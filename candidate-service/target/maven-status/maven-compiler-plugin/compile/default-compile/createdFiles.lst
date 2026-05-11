@@ -1,0 +1,11 @@
+com/smarthr/candidate/controller/AICandidateController.class
+com/smarthr/candidate/service/CandidateService.class
+com/smarthr/candidate/ai/ResumeAnalysisResponse.class
+com/smarthr/candidate/CandidateServiceApplication.class
+com/smarthr/candidate/repository/CandidateRepository.class
+com/smarthr/candidate/dto/CandidateRequest.class
+com/smarthr/candidate/ai/AICandidateService.class
+com/smarthr/candidate/model/Candidate.class
+com/smarthr/candidate/ai/ResumeAnalysisRequest.class
+com/smarthr/candidate/dto/CandidateDTO.class
+com/smarthr/candidate/controller/CandidateController.class

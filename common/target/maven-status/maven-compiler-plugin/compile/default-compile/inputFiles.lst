@@ -1,0 +1,8 @@
+/Users/huanghuixiang/smarthr/common/src/main/java/com/smarthr/common/dto/ApiResponse.java
+/Users/huanghuixiang/smarthr/common/src/main/java/com/smarthr/common/exception/GlobalExceptionHandler.java
+/Users/huanghuixiang/smarthr/common/src/main/java/com/smarthr/common/exception/BusinessException.java
+/Users/huanghuixiang/smarthr/common/src/main/java/com/smarthr/common/config/MyBatisPlusConfig.java
+/Users/huanghuixiang/smarthr/common/src/main/java/com/smarthr/common/model/BaseEntity.java
+/Users/huanghuixiang/smarthr/common/src/main/java/com/smarthr/common/config/FeignConfig.java
+/Users/huanghuixiang/smarthr/common/src/main/java/com/smarthr/common/dto/PageResponse.java
+/Users/huanghuixiang/smarthr/common/src/main/java/com/smarthr/common/dto/PageRequest.java

@@ -1,0 +1,11 @@
+com/smarthr/job/ai/JobAnalysisRequest.class
+com/smarthr/job/controller/AIJobController.class
+com/smarthr/job/ai/AIJobService.class
+com/smarthr/job/repository/JobRepository.class
+com/smarthr/job/ai/JobAnalysisResponse.class
+com/smarthr/job/JobServiceApplication.class
+com/smarthr/job/dto/JobRequest.class
+com/smarthr/job/service/JobService.class
+com/smarthr/job/dto/JobDTO.class
+com/smarthr/job/controller/JobController.class
+com/smarthr/job/model/Job.class

@@ -1,0 +1,11 @@
+/Users/huanghuixiang/smarthr/candidate-service/src/main/java/com/smarthr/candidate/service/CandidateService.java
+/Users/huanghuixiang/smarthr/candidate-service/src/main/java/com/smarthr/candidate/repository/CandidateRepository.java
+/Users/huanghuixiang/smarthr/candidate-service/src/main/java/com/smarthr/candidate/controller/CandidateController.java
+/Users/huanghuixiang/smarthr/candidate-service/src/main/java/com/smarthr/candidate/dto/CandidateRequest.java
+/Users/huanghuixiang/smarthr/candidate-service/src/main/java/com/smarthr/candidate/model/Candidate.java
+/Users/huanghuixiang/smarthr/candidate-service/src/main/java/com/smarthr/candidate/controller/AICandidateController.java
+/Users/huanghuixiang/smarthr/candidate-service/src/main/java/com/smarthr/candidate/dto/CandidateDTO.java
+/Users/huanghuixiang/smarthr/candidate-service/src/main/java/com/smarthr/candidate/ai/ResumeAnalysisResponse.java
+/Users/huanghuixiang/smarthr/candidate-service/src/main/java/com/smarthr/candidate/ai/ResumeAnalysisRequest.java
+/Users/huanghuixiang/smarthr/candidate-service/src/main/java/com/smarthr/candidate/ai/AICandidateService.java
+/Users/huanghuixiang/smarthr/candidate-service/src/main/java/com/smarthr/candidate/CandidateServiceApplication.java
