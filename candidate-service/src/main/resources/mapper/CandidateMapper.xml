@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smarthr.candidate.repository.CandidateRepository">
+
+    <select id="findByConditions" resultType="com.smarthr.candidate.model.Candidate">
+        SELECT * FROM candidate WHERE deleted = 0
+        <if test="status != null">
+            AND status = #{status}
+        </if>
+        <if test="jobId != null">
+            AND job_id = #{jobId}
+        </if>
+        <if test="source != null and source != ''">
+            AND source = #{source}
+        </if>
+        <if test="startTime != null">
+            AND applied_at &gt;= #{startTime}
+        </if>
+        <if test="endTime != null">
+            AND applied_at &lt;= #{endTime}
+        </if>
+        ORDER BY applied_at DESC
+    </select>
+
+    <select id="findByStatus" resultType="com.smarthr.candidate.model.Candidate">
+        SELECT * FROM candidate WHERE deleted = 0 AND status = #{status} ORDER BY applied_at DESC
+    </select>
+
+    <select id="findByJobId" resultType="com.smarthr.candidate.model.Candidate">
+        SELECT * FROM candidate WHERE deleted = 0 AND job_id = #{jobId} ORDER BY applied_at DESC
+    </select>
+
+    <select id="countByStatus" resultType="java.lang.Long">
+        SELECT COUNT(*) FROM candidate WHERE deleted = 0 AND status = #{status}
+    </select>
+
+</mapper>
