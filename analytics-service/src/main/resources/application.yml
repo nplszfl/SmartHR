@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: analytics-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/smarthr_analytics?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: root123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 8085
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.smarthr.analytics.model
+  configuration:
+    map-underscore-to-camel-case: true
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+
+employee:
+  service:
+    url: http://localhost:8084
+candidate:
+  service:
+    url: http://localhost:8082
+interview:
+  service:
+    url: http://localhost:8083
+job:
+  service:
+    url: http://localhost:8084

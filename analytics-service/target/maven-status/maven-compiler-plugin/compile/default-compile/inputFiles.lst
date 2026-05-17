@@ -1,0 +1,9 @@
+/Users/huanghuixiang/smarthr/analytics-service/src/main/java/com/smarthr/analytics/service/AnalyticsService.java
+/Users/huanghuixiang/smarthr/analytics-service/src/main/java/com/smarthr/analytics/AnalyticsServiceApplication.java
+/Users/huanghuixiang/smarthr/analytics-service/src/main/java/com/smarthr/analytics/client/JobClient.java
+/Users/huanghuixiang/smarthr/analytics-service/src/main/java/com/smarthr/analytics/client/CandidateClient.java
+/Users/huanghuixiang/smarthr/analytics-service/src/main/java/com/smarthr/analytics/client/InterviewClient.java
+/Users/huanghuixiang/smarthr/analytics-service/src/main/java/com/smarthr/analytics/dto/HrDashboardDto.java
+/Users/huanghuixiang/smarthr/analytics-service/src/main/java/com/smarthr/analytics/controller/AnalyticsController.java
+/Users/huanghuixiang/smarthr/analytics-service/src/main/java/com/smarthr/analytics/client/EmployeeClient.java
+/Users/huanghuixiang/smarthr/analytics-service/src/main/java/com/smarthr/analytics/dto/HiringReportDto.java

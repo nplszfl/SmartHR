@@ -1,0 +1,10 @@
+com/smarthr/analytics/service/AnalyticsService.class
+com/smarthr/analytics/AnalyticsServiceApplication.class
+com/smarthr/analytics/dto/HrDashboardDto.class
+com/smarthr/analytics/controller/AnalyticsController.class
+com/smarthr/analytics/client/JobClient.class
+com/smarthr/analytics/dto/HiringReportDto$HiringTrendPoint.class
+com/smarthr/analytics/client/CandidateClient.class
+com/smarthr/analytics/client/EmployeeClient.class
+com/smarthr/analytics/client/InterviewClient.class
+com/smarthr/analytics/dto/HiringReportDto.class
